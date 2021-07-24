@@ -2,7 +2,7 @@
 while getopts 'm:' option
 do
 	case "${option}" in
-		m) MESSAGE={$OPTARG};;
+		m) MESSAGE=${OPTARG};;
 	esac
 done
 tbotDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
