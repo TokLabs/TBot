@@ -7,4 +7,4 @@ do
 done
 tbotDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 source $tbotDir/TBot.ini
-curl -s -X POST https://api.telegram.org/bot$tAPIKey/sendMessage -d chat_id=$chatID -d text="$MESSAGE" -d parse_mode="HTML"
+curl -s -X POST https://api.telegram.org/bot$tAPIKey/sendMessage -d chat_id=$chatId -d text="$MESSAGE" -d parse_mode="HTML"
