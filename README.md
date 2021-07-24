@@ -8,5 +8,5 @@ A simple Telegram poster.</br>
 
 <h2>Example</h2></br>
 ```
- ./TBot.sh -m "This is a test"</br>
+./TBot.sh -m "This is a test"</br>
 ```
