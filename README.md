@@ -1,4 +1,4 @@
-#Tbot</br>
+<h1>Tbot</h1></br>
 A simple Telegram poster.</br>
 
 ##Requirements</br>
