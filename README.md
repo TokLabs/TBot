@@ -1,10 +1,19 @@
 # Tbot</br>
 A simple Telegram poster.</br>
+## Installation</br>
+```
+git clone https://github.com/toklabs/TBot.git
+cd TBot
+chmod +x TBot.sh
+```
 ## Requirements</br>
 * APIkey and chat_id required to function, these must be placed in TBot.ini.</br>
-* TBot.sh requires `chmod +x TBot.sh` before it can be executed.</br>
 
-## Examples</br>
+## Usage and Examples</br>
+
+### Usage</br>
+./TBot.sh -m "message here"
+### Examples
 ```
 ./TBot.sh -m "This is a test"
 ```
