@@ -1,5 +1,5 @@
 # TBot</br>
-A simple Telegram poster.</br>
+A simple Telegram poster that supports HTML- style formatting.</br>
 ## Installation</br>
 ```
 git clone https://github.com/toklabs/TBot.git
