@@ -11,7 +11,7 @@ chmod +x TBot.sh
 ### API Key
 To get an API Key for a bot, you would need to create a bot as per Telegram's guidance (To create a bot, follow Telegram's guidance https://core.telegram.org/bots#6-botfather). The token given following the creation of your bot will be used as the API key.
 ### Chat ID
-The chat ID is the ID of thr group that the bot is a member of  wish to send messages to. </br>
+The chat ID is the ID of thr group that the bot is a member of and that you wish to send messages to. </br>
 If you need to set up a group for this:
 
 1. Select the new message icon
