@@ -1,4 +1,4 @@
-# Tbot</br>
+# TBot</br>
 A simple Telegram poster.</br>
 ## Installation</br>
 ```
