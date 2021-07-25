@@ -7,6 +7,11 @@ A simple Telegram poster.</br>
 * TBot.sh requires `chmod +x TBot.sh` before it can be executed.</br>
 
 ## Example</br>
+
+'./TBot.sh -m "This is a test"'</br>
 ```
-./TBot.sh -m "This is a test"
+./TBot.sh -m "$(echo "<u><b>$dateVariable</b></u>
+
+Tool1: $(wc -l < $pathToFile/$fileName.list)
+Tool2: $(wc -l < $pathToFile/$fileName2.list)")"
 ```
