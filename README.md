@@ -7,7 +7,8 @@ A simple Telegram poster.</br>
 ## Examples</br>
 ```
 ./TBot.sh -m "This is a test"
-```</br>
+```
+
 ```
 ./TBot.sh -m "$(echo "<u><b>$dateVariable</b></u>
 Tool1: $(wc -l < $pathToFile/$fileName.list)
