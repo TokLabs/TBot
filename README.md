@@ -7,7 +7,7 @@ cd TBot/
 chmod +x TBot.sh
 ```
 ## Requirements</br>
-* API key and chat_id required to function, these must be placed in TBot.ini.</br>
+* An API key and chat_id are required to function, these need to be added to TBot.ini.</br>
 ### API Key
 To get an API Key for a bot, you will need to:
 1. Open up a conversation with the BotFather (https://t.me/botfather)
@@ -22,10 +22,9 @@ If you need to set up a group for this:
 4. Enter a name for your group then select 'Create'
 5. Visit https://api.telegram.org/bot$botApiToken/getUpdates (substitute $botApiToken for your bot's token.)
 6. Chat ID should now be visible as 'id' (beginning with '-') under an entry with 'group' as it's type.
-## Usage and Examples</br>
-### Usage</br>
+## Usage</br>
 ./TBot.sh -m "message here"
-### Examples
+## Examples
 ```
 ./TBot.sh -m "This is a test"
 ```
