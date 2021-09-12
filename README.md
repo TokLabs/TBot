@@ -8,12 +8,12 @@ chmod +x TBot.sh
 ```
 ## Requirements</br>
 * An API key and chat_id are required to function, these need to be added to TBot.ini.</br>
-### API Key
+### API Key</br>
 To get an API Key for a bot, you will need to:
 1. Open up a conversation with the BotFather (https://t.me/botfather)
 2. Create a bot as per Telegram's guidance (https://core.telegram.org/bots#6-botfather)
 3. The token received after creating your bot will be used as the API key.
-### Chat ID
+### Chat ID</br>
 The chat ID is both the group ID of group you want to send messages to and that the bot is a member of. </br>
 If you need to set up a group for this:
 1. Select the new message icon
@@ -23,8 +23,10 @@ If you need to set up a group for this:
 5. Visit https://api.telegram.org/bot$botApiToken/getUpdates (substitute $botApiToken for your bot's token.)
 6. Chat ID should now be visible as 'id' (beginning with '-') under an entry with 'group' as it's type.
 ## Usage</br>
+```
 ./TBot.sh -m "message here"
-## Examples
+```
+## Examples</br>
 ```
 ./TBot.sh -m "This is a test"
 ```
